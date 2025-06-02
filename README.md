@@ -197,8 +197,6 @@ Feedstock Maintainers
 =====================
 
 * [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
+* [@grallewellyn](https://github.com/grallewellyn/)
 * [@wildintellect](https://github.com/wildintellect/)
-
-
-<!-- dummy commit to enable rerendering -->
 
