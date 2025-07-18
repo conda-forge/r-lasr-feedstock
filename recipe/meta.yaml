@@ -1,4 +1,4 @@
-{% set version = "0.16.1" %}
+{% set version = "0.16.2" %}
 {% set posix = "m2-" if win else "" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://r-lidar.r-universe.dev/src/contrib/lasR_{{ version }}.tar.gz
-  sha256: 53c37d2675e3c4f52c95e0ce2703e773f460c920863b4ede485d54974fb9f0d0
+  sha256: 7a8e866269b7afdfb22586de0ab658160a3fd89da9b3dfcc387031074817cf88
 
 build:
   skip: true  # [win]
@@ -46,6 +46,7 @@ requirements:
     - llvm-openmp  # [osx]
   run:
     - r-base
+    - proj
     - llvm-openmp  # [osx]
 
 test:
