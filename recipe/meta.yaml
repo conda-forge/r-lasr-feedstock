@@ -41,12 +41,15 @@ requirements:
     - r-base
     - r-rcpp
     - r-r.utils
+    - libgdal
     - libgdal-core
+    - proj
     - libgomp  # [not osx]
     - llvm-openmp  # [osx]
   run:
     - r-rcpp
     - r-base
+    - {{ pin_compatible('libgdal', max_pin='x.x') }}
     - proj
     - llvm-openmp  # [osx]
 
