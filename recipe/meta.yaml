@@ -1,4 +1,4 @@
-{% set version = "0.16.2" %}
+{% set version = "0.17.1" %}
 {% set posix = "m2-" if win else "" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://r-lidar.r-universe.dev/src/contrib/lasR_{{ version }}.tar.gz
-  sha256: 7a8e866269b7afdfb22586de0ab658160a3fd89da9b3dfcc387031074817cf88
+  sha256: fe37bf0f8088969a63d68c2b3f85eb9e148294dd178ff21c46c165e2ff94f1d7
 
 build:
   skip: true  # [win]
