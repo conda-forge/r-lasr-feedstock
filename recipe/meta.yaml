@@ -46,6 +46,7 @@ requirements:
     - llvm-openmp  # [osx]
   run:
     - r-base
+    - r-rcpp
     - proj
     - llvm-openmp  # [osx]
 
