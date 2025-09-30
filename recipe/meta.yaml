@@ -42,6 +42,7 @@ requirements:
     - libgdal-core
     - libgomp      # [not osx]
     - llvm-openmp  # [osx]
+    - proj
   run:
     - r-base
     - r-rcpp
