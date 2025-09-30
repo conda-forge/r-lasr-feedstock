@@ -20,7 +20,6 @@ build:
     - '*/Rblas.dll'    # [win]
     - '*/Rlapack.dll'  # [win]
 
-
 requirements:
   build:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
@@ -40,14 +39,12 @@ requirements:
   host:
     - r-base
     - r-rcpp
-    - r-r.utils
     - libgdal-core
-    - libgomp  # [not osx]
+    - libgomp      # [not osx]
     - llvm-openmp  # [osx]
   run:
     - r-base
     - r-rcpp
-    - proj
     - llvm-openmp  # [osx]
 
 test:
