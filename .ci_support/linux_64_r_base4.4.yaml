@@ -22,6 +22,8 @@ pin_run_as_build:
   r-base:
     min_pin: x.x
     max_pin: x.x
+proj:
+- '9.6'
 r_base:
 - '4.4'
 target_platform:
