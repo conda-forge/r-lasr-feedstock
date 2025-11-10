@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://r-lidar.r-universe.dev/src/contrib/lasR_{{ version }}.tar.gz
-  sha256: 20b7dc8550060cb5e74ed2a029f42dcdb6868034ef842af94bbd3198fb645908
+  sha256: a9ed97091cecabe1f44e6ffe45dd72f99b0f540fd260cae8c1b434f55e24adf4
 
 build:
   skip: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
