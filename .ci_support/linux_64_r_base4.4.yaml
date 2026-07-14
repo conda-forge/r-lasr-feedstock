@@ -1,5 +1,3 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '10.15'
 c_compiler:
 - gcc
 c_compiler_version:
